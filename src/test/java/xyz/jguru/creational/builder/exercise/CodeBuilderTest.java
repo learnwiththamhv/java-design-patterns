@@ -1,8 +1,7 @@
-package xyz.jguru.solid.creational.builder.exercise;
+package xyz.jguru.creational.builder.exercise;
 
+import org.junit.Assert;
 import org.junit.Test;
-
-import static org.junit.Assert.assertEquals;
 
 public class CodeBuilderTest {
 
@@ -14,7 +13,7 @@ public class CodeBuilderTest {
     @Test
     public void emptyTest() {
         CodeBuilder cb = new CodeBuilder("Foo");
-        assertEquals("public class Foo\n{\n}",
+        Assert.assertEquals("public class Foo\n{\n}",
                 preprocess(cb.toString()));
     }
 
@@ -24,10 +23,9 @@ public class CodeBuilderTest {
         CodeBuilder cb = new CodeBuilder("Person")
                 .addField("name", "String")
                 .addField("age", "int");
-        assertEquals("public class Person\n{\n" +
+        Assert.assertEquals("public class Person\n{\n" +
                         "  public String name;\n" +
                         "  public int age;\n}",
                 preprocess(cb.toString()));
     }
-
 }

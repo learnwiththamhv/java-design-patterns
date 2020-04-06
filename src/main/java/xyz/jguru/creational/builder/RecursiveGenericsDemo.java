@@ -1,4 +1,4 @@
-package xyz.jguru.solid.creational.builder;
+package xyz.jguru.creational.builder;
 
 // builder inheritance with recursive generics
 

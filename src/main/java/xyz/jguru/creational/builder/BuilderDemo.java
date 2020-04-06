@@ -1,4 +1,4 @@
-package xyz.jguru.solid.creational.builder;
+package xyz.jguru.creational.builder;
 
 import java.util.ArrayList;
 import java.util.Collections;

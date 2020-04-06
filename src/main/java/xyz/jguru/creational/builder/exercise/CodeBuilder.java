@@ -1,4 +1,4 @@
-package xyz.jguru.solid.creational.builder.exercise;
+package xyz.jguru.creational.builder.exercise;
 
 import java.util.ArrayList;
 import java.util.List;

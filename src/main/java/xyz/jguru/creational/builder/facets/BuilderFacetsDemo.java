@@ -1,4 +1,4 @@
-package xyz.jguru.solid.creational.builder.facets;
+package xyz.jguru.creational.builder.facets;
 
 class Person
 {
